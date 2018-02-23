@@ -9,10 +9,10 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
-  color: #34af23; }
+  color: #268bd2; }
 
 a {
-  color: #34af23;
+  color: #268bd2;
 }
 
 .hide {
@@ -64,8 +64,8 @@ input, select {
 
 button {
   color: #FFF;
-  background-color: #34AF23;
-  border: 1px solid #34AF23; }
+  background-color: #268bd2;
+  border: 1px solid #268bd2; }
   button:hover {
     cursor: pointer; }
 
@@ -95,18 +95,17 @@ button {
 
 /*Post Bulma CSS */
 .navbar-item {
-  color: #34af23 !important;
+  color: #268bd2 !important;
   font-size: 1rem;
 }
 
 h1 {
   margin-bottom: 3.5rem !important;
-  color: #34af23 !important;
 }
 
 .hero-body {
   padding: 3rem 1.5rem !important;
-  color: #34af23;
+  color: #268bd2;
 }
 
 .subtitle {
