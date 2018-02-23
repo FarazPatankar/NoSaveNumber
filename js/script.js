@@ -81,6 +81,13 @@ $(document).ready(function() {
     No Save Number is an application that lets you send Whatsapp messages without having to save the number to your contact list.<br><br>\
     Simply enter the number you'd like to message along with your message and hit submit.\
     ";
+
+    ga('send', {
+      hitType: 'event',
+      eventCategory: 'click',
+      eventAction: 'About'
+    });
+
     swal({
       title: 'About',
       content,
@@ -105,8 +112,8 @@ $(document).ready(function() {
 
       ga('send', {
         hitType: 'event',
-        eventCategory: 'Submit',
-        eventAction: 'click',
+        eventCategory: 'click',
+        eventAction: 'Submit',
         eventLabel: $('#phone').intlTelInput('getSelectedCountryData').name
       });
 
