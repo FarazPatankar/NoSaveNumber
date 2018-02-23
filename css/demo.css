@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+body {
+  padding: 20px;
+  font-size: 14px;
+  font-family: monospace, Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  color: #34af23; }
+
+a {
+  color: #34af23;
+}
+
+.hide {
+  display: none; }
+
+pre {
+  margin: 0 !important;
+  display: inline-block; }
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  background: none; }
+
+input, button {
+  height: 35px;
+  margin: 0;
+  padding: 6px 12px;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit; }
+  input[disabled], button[disabled] {
+    background-color: #eee; }
+
+input, select, textarea {
+  border: 1px solid #CCC;
+  margin: 1rem auto !important;
+  display: block;
+  width: 250px; }
+
+input, select {
+  width: 250px;
+}
+
+::-webkit-input-placeholder {
+  color: #BBB; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #BBB;
+  opacity: 1; }
+
+:-ms-input-placeholder {
+  color: #BBB; }
+
+button {
+  color: #FFF;
+  background-color: #34AF23;
+  border: 1px solid #34AF23; }
+  button:hover {
+    cursor: pointer; }
+
+#result {
+  margin-bottom: 100px; }
+
+#valid-msg {
+  color: green;
+}
+
+#error-msg {
+  color: red;
+}
+
+.container-styles {
+  margin: 6rem 0;
+  text-align: center;
+}
+
+.flag-container {
+  text-align: left;
+}
+
+.name {
+  text-decoration: underline;
+}
+
+/*Post Bulma CSS */
+.navbar-item {
+  color: #34af23 !important;
+  font-size: 1rem;
+}
+
+h1 {
+  margin-bottom: 3.5rem !important;
+  color: #34af23 !important;
+}
+
+.hero-body {
+  padding: 3rem 1.5rem !important;
+  color: #34af23;
+}
+
+.subtitle {
+  font-size: 1rem !important;
+}
+
+.intl-tel-input {
+  margin-left: 10px !important;
+}
+
+footer {
+  text-align: left;
+}
+
+footer a {
+  float: right;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    text-align: center;
+    display: block;
+  }
+
+  footer a {
+    float: none !important;
+    display: block;
+  }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>No Save Number</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+  <link rel="stylesheet" href="./css/intlTelInput.css">
+  <link rel="stylesheet" href="./css/demo.css">
+</head>
+
+<body class="container">
+  <nav class="navbar is-transparent">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#">No Save Number</a>
+      <div class="navbar-burger burger" data-target="navbarContent">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div id="navbarContent" class="navbar-menu">
+      <div class="navbar-end">
+        <a href="#" class="navbar-item about-btn">
+          About
+        </a>
+      </div>
+    </div>
+  </nav>
+  <section class="hero is-medium has-text-centered">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">Enter a number and a message</h1>
+        <form class="subtitle">
+          <input id="phone" type="tel">
+          <br>
+          <small id="valid-msg" class="hide">✓ Valid</small>
+          <small id="error-msg" class="hide">✗ Invalid number</small>
+          <textarea rows="4" class="materialize-textarea" id="message"></textarea>
+          <button id="submit-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <footer>
+    © 2018 No Save Number
+    <a href="https://twitter.com/farazpatankar13">
+      Made with ♥ by&nbsp;
+      <span class="name">Faraz Patankar</span>
+    </a>
+  </footer>
+
+  <!-- Load jQuery from CDN so can run demo immediately -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="./js/intlTelInput.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
