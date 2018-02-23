@@ -12,7 +12,7 @@ $(document).ready(function() {
     // excludeCountries: ["us"],
     // formatOnDisplay: false,
     geoIpLookup: function(callback) {
-      $.get('http://ipinfo.io', function() {}, 'jsonp').always(function(resp) {
+      $.get('https://ipinfo.io', function() {}, 'jsonp').always(function(resp) {
         var countryCode = resp && resp.country ? resp.country : '';
         callback(countryCode);
       });
@@ -22,7 +22,7 @@ $(document).ready(function() {
     // nationalMode: false,
     // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
     // placeholderNumberType: "MOBILE",
-    // preferredCountries: ['cn', 'jp'],
+    preferredCountries: ['us', 'uk', 'in'],
     separateDialCode: true,
     utilsScript: './js/utils.js'
   });
