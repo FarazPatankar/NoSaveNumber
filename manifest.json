@@ -1,0 +1,32 @@
+{
+  "short_name": "No Save Number",
+  "name": "No Save Number",
+  "icons": [
+    {
+      "src": "img/icon-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "img/icon-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "img/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/double-tick-indicator.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  // "start_url": "index.html?launcher=true",
+  "start_url": "/",
+  "background_color": "#268bd2",
+  "theme_color": "#268bd2",
+  "display": "standalone",
+  "orientation": "portrait"
+}
